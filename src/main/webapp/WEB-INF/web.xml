@@ -48,4 +48,8 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <listener>
+        <listener-class>by.aboba.listener.StartupApplicationListener</listener-class>
+    </listener>
+
 </web-app>
